@@ -11,7 +11,7 @@ import requests
 config = {}
 
 
-
+#Fetches URL
 def fetch_url():
     url = _url.get()
     config['images'] = []
