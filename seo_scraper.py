@@ -30,7 +30,7 @@ def fetch_url():
             sb('No images found')
         config['images'] = images
 
-
+#Fetches Links
 def fetch_links():
     url = _url.get()
     try:
